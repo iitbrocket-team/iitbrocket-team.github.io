@@ -1,0 +1,91 @@
+.container-2{
+    display: flex;
+    position: relative;
+    top: 10vh;
+    /* height: ; */
+}
+/* .container-1{
+    display: flex;
+    height: 100vh;
+    position: relative;
+    background-color: aqua;
+} */
+.container-3{
+    /* display: flex; */
+    height: 100vh;
+    position: relative;
+    z-index: 50;
+    background-color: aqua;
+}
+.rocket{
+    position: fixed;
+    padding-left: 17vw;
+    padding-top: 0.3vw;
+    width: 8vw;
+}
+.left-container{
+    width: 40vw;
+    position: fixed;
+}
+.right-container{
+    width: 100vw;
+}
+.about-us-container{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+    /*background-image: url("rocket4.webp");*/
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-color: #000000;
+}
+.about-us-heading{
+    font-size: 40px;
+    /*padding-left: 40vw;*/
+    font-weight: bold;
+    padding-top: 50px;
+    color: #ffffff;
+}
+.about-us-text{
+    font-size: 18px;
+    /*padding-left: 10vw;*/
+    padding-top: 30px;
+    color: #ffffff;
+}
+.vision-container{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 50px;
+    z-index: 100;
+    position: relative;
+    /*padding-left: 40vw; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    padding-bottom: 200px;
+
+    /* background-position-x: -2vw;
+    background-position-y: -13vh;
+    background-color: orange; */
+    /*background-image: url("rocket3.webp");*/
+}
+.vision-heading{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    /*padding-left: 41vw;*/
+    /*text-align: center;*/
+    color: #ffffff;
+
+}
+.vision-text{
+    font-size: 18px;
+    /*padding-left: 10vw;*/
+    padding-top: 30px;
+    color: #ffffff;
+    
+}

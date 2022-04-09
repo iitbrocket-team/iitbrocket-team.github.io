@@ -1,0 +1,334 @@
+.higher
+{
+    width: 100%;
+    height: 14000px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+}
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: black;
+    flex: 1 0 500px;
+}
+nav .logo{
+    padding-top: 22px;
+    padding-bottom: 10px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.dropbtn {
+    margin-top: 30px;
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+    color: #fff;
+    font-size: 16px;
+    border: none;
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    width: 300px;
+    position: absolute;
+    background-color: rgba(125, 250, 244, 0.6);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {background-color: #ffccc7;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: rgba(0, 0, 0);}
+
+nav ul li a:hover{
+    background:rgba(0, 0, 0, 0.7);
+    border-radius:6px;
+}
+
+
+#fa-fa{
+    display: none;
+}
+
+.menu1{
+    display: none;
+}
+
+.menu1 a{
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.top
+{
+    padding-top: 200px;
+}
+.intro
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 70px;
+    color: white;
+    padding-top: 280px;
+    padding-left: 360px;
+}
+.about
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 50px;
+    color: white;
+    padding-left: 360px;
+
+}
+.prop1
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 100px;
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+}
+.proptext2
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+    margin-top: 5px;
+    padding-left: 10px;
+    text-align: left;  
+    min-height: 1600px;
+}
+.avio1
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 100px;
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+}
+.aviotext2
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+    margin-top: 5px;
+    padding-left: 10px;
+    text-align: left;  
+    min-height: 1600px;
+}
+.reco1
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 100px;
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+}
+.recotext2
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+    margin-top: 5px;
+    padding-left: 10px;
+    text-align: left;  
+    min-height: 1600px;
+}
+.airf1
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 100px;
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+}
+.airftext2
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+    margin-top: 5px;
+    padding-left: 10px;
+    text-align: left;  
+    min-height: 1600px;
+}
+.payl1
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 100px;
+    color: white;
+    margin-top: 25px;
+    text-align: center;
+}
+.payltext2
+{
+    font-family: 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+    margin-top: 5px;
+    padding-left: 10px;
+    text-align: left;  
+    min-height: 1600px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col p:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col p{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.CopyRightText{
+	width: 100%;
+	background: #181818;
+	padding: 8px 100px;
+	text-align: center;
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 700px){
+    .menu{
+        display: none;
+    }
+    #fa-fa{
+        display: block;
+        color: #fff;
+        margin-top: 15px;
+        float: right;
+    }
+
+    #fa-fa:hover .menu1{
+        display: block;
+        position: absolute;
+        transform: translateX(-120px);
+        text-align: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        width: 270px;
+    }
+}

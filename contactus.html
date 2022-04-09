@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        
+       
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+        
+        <title>Contact Us</title>
+    </head>   
+    <body>
+        <div class="wrapper">
+            <nav>
+                <div class="logo"><img src="logo.png" width= 75px height= 75px></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown menu">
+                        <a class="dropbtn" href="RT_Portfolio (3)/menu.html">TEAM</a>
+                        
+                        <div class="dropdown-content">
+                            <a href="RT_Portfolio (3)/menu.html#prop">Propulsion</a>
+                            <a href="RT_Portfolio (3)/menu.html#avio">Avionics</a>
+                            <a href="RT_Portfolio (3)/menu.html#reco">Recovery</a>
+                            <a href="RT_Portfolio (3)/menu.html#airf">Airframe</a>
+                            <a href="RT_Portfolio (3)/menu.html#payl">Payload</a>
+                            <a href="RT_Portfolio (3)/menu.html#web-creatives">Creatives and web</a>
+                        </div>
+                    </li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+
+                    
+                </ul>
+                
+            </nav>
+        </div>
+        <footer class = "contact">
+            <h2 style="text-align: center; ">CONTACT US</h2>
+            <hr>
+            <div class="map-container">
+                <h3>Our Address</h3>
+        <div id="map"></div>
+            </div>
+            <div class = "social-holder"><!-- Add icon library -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                
+                <!-- Add font awesome icons -->
+                <a href="https://www.facebook.com/search/top?q=iitb%20rocket%20team" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/company/iitb-rocket-team/" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/iitb.rocket.team/?hl=en" class="fa fa-instagram"></a>
+                <a href="mailto:iitbrocketteam@gmail.com" class="fa fa-envelope"></a></div>
+            <div class = "form-holder">
+                <h3>Queries ?<br>We got you covered.</h3>
+                <form action="#" method="POST">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="Name" name="Name" placeholder="Your Name">
+                
+                    <label for="email">Last Name</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+                
+                    <label for="Subject">Subject</label>
+                    <input type="text" id="Subject" name="Subject" placeholder="Subject">
+                
+                
+                    <label for="Query">Query</label>
+                    <textarea id="Query" name="Query" placeholder="Write your query here" style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                  </form>
+                  
+<!--<?php
+$servername = 'localhost';
+$username = 'root';
+$pass = '';
+$db = 'Query';
+$conn = mysqli_connect($servername,$username,$pass,$db);
+if(!$conn){
+die("Sorry we failed to connect : ". mysqli_connect_error());
+}
+
+?>
+
+
+<?php
+
+    if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+        $name = $_POST['Name'];
+        $query = $_POST['Query'];
+        $email = $_POST['email'];
+        $subject = $_POST['Subject'];
+    
+
+    if (!empty($name) && !empty($email) && !empty($subject) && !empty($query)){
+$sql = "INSERT INTO queries(Name,Email,Subject,Query) VALUES('$name' , '$email', '$subject','$query')";
+
+$result = mysqli_query($conn,$sql);
+
+
+if($result){
+
+}
+else{
+    echo '<script>alert("The record was not inserted")</script>';
+}
+}
+else {echo '<script>alert("Enter valid entries !")</script>';}
+
+    }
+    
+    
+?>
+<?php
+if($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($name) && !empty($query) && !empty($email) && !empty($subject)){
+   
+   
+    echo '<script>alert("Your request has been sent successfully !")</script>';
+   
+-->  
+
+            </div>
+        </footer>
+        <footer class="footer2">
+            <div class="container">
+                <div class="row">
+                 <div class="footer-col">
+                     <h4>Address</h4>
+                     <p>IITB Rocket Team Lab, Basement, Aero Annex Building, Academic Area, IIT Bombay, Powai Mumbai, 400076</p>
+                 </div>
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                         <li><a href="index.html">HOME</a></li>
+                         <li><a href="RT_Portfolio (3)/menu.html">TEAM</a></li>
+                         <li><a href="#">ABOUT US</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>SUBSYSTEMS</h4>
+                        <ul>
+                            <li><a href="RT_Portfolio (3)/menu.html#prop">Propulsion</a></li>
+                            <li><a href="RT_Portfolio (3)/menu.html#avio">Avionics</a></li>
+                            <li><a href="RT_Portfolio (3)/menu.html#reco">Recovery</a></li>
+                            <li><a href="RT_Portfolio (3)/menu.html#airf">Airframe</a></li>
+                            <li><a href="RT_Portfolio (3)/menu.html#payl">Payload</a></li>
+                            <li><a href="RT_Portfolio (3)/menu.html#web-creatives">Creatives And Web</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/search/top?q=iitb%20rocket%20team"><i class="fab fa-facebook-f"></i></a>
+                            <!--<a href="#"><i class="fab fa-twitter"></i></a>-->
+                            <a href="https://www.instagram.com/iitb.rocket.team/?hl=en"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/company/iitb-rocket-team/"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="mailto:iitbrocketteam@gmail.com"><i class="fab fa-envelope" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+       <div class="CopyRightText">
+         <p>&copy; IITB Rocket Team 2022</p>
+     </div>
+
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoiaHNwaSIsImEiOiJja3R2OW53djQwaWU5MzJtbXdrM2ZvdDgwIn0.Y7JsRzHx54zdW9JrTeINVQ';
+            var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [72.91754277459164,19.131291788731453],
+            zoom: 15,
+            })
+            const marker1 = new mapboxgl.Marker()
+            .setLngLat([72.91754277459164,19.131291788731453])
+            .addTo(map);
+        </script>
+    </body>
+</html>

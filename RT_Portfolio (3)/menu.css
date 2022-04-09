@@ -274,9 +274,9 @@ nav ul li a:hover{
     #fa-fa:hover .menu1{
         display: block;
         position: absolute;
-        transform: translateX(-200px);
+        transform: translateX(-150px);
         text-align: center;
-        width: 270px;
+        width: 200px;
 
     }
 

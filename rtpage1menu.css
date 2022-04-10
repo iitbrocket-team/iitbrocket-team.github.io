@@ -100,7 +100,7 @@ nav ul li a{
 
 .dropdown-content a:hover {background-color: rgb(115, 115, 236);}
   
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block; background-color: #000000;}
   
 .dropdown:hover .dropbtn {background-color: rgb(115, 115, 236);}
 */

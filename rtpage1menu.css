@@ -306,7 +306,7 @@ section h1{
     }
   .dropdown-content a:hover {background-color: rgb(115, 115, 236);}
     
-  .dropdown:hover .dropdown-content {display: block; background-color: rgb(0,0,0);}
+  .dropdown:hover .dropdown-content {display: block;}
     
   .dropdown:hover .dropbtn {background-color: rgb(115, 115, 236);}
   
@@ -356,6 +356,7 @@ section h1{
           transform: translateX(-150px);
           text-align: center;
           width: 200px;
+          background-color: #000000;
       }
   }
   

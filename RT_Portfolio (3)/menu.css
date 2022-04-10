@@ -6,6 +6,7 @@
     margin-right: auto;
     background-color: #000000;
     z-index: -2;
+    overflow-x: hidden;
 }
 
 body{
@@ -274,9 +275,9 @@ nav ul li a:hover{
     #fa-fa:hover .menu1{
         display: block;
         position: absolute;
-        transform: translateX(-150px);
+        transform: translateX(-200px);
         text-align: center;
-        width: 200px;
+        width: 270px;
 
     }
 
@@ -293,7 +294,7 @@ nav ul li a:hover{
 .intro
 {
     font-family: 'Poppins', sans-serif;
-    font-size: 70px;
+    font-size: 30px;
     color: white;
     padding-top: 160px;
     text-align: center;
@@ -302,8 +303,8 @@ nav ul li a:hover{
 {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 00px;
+    padding-right: 00px;
     color: white;
     
     text-align: center;
@@ -317,6 +318,36 @@ nav ul li a:hover{
     margin-top: 25px;
     padding-left: 10px;
     text-align: center;
+}
+
+@media screen and (max-width:700px){
+  .proptext{
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width:700px){
+  .aviotext{
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width:700px){
+  .recotext{
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width:700px){
+  .airftext{
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width:700px){
+  .payltext{
+    font-size: 50px;
+  }
 }
 .proptext2
 {   height: fit-content;
@@ -385,7 +416,7 @@ nav ul li a:hover{
     grid-template-areas:
       "menu menu menu"
       ". card .";
-    width: 23vw;
+    width: 25vw;
     padding-bottom: 30px;
     
   }
